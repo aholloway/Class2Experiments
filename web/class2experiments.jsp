@@ -15,22 +15,31 @@
     <style>
     body
     {
+    /*Formatting the background*/
     background-color:#d0e4fe;
     }
+    /*Formatting for h1*/
     h1
     {
     color:orange;
     text-align:center;
     }
+    /*Formatting for paragraphs*/
     p
     {
     font-family:"Times New Roman";
     font-size:20px;
+    }
+    #para1
+    {
+    text-align:center;
+    color:red;
     }
     </style>
     <body>
         <h1>Welcome to my page!</h1>
         
         <p>Lets try to some CSS formatting!</p>
+        <p id='para1'>Here's a paragraph with an id.</p>
     </body>
 </html>
