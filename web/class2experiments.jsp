@@ -42,6 +42,7 @@
     </style>
     <body>
         <h1>Welcome to my page!</h1>
+        <hr>
         
         <p class="center">Lets try to some CSS formatting!</p>
         <p id='para1'>Here's a paragraph with an id.</p>
