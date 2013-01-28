@@ -6,6 +6,7 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
+        <welcome-file>class2experiments_w_JS.jsp</welcome-file>
         <welcome-file>class2experiments_w_externalStyleSheet.jsp</welcome-file>
     </welcome-file-list>
 </web-app>

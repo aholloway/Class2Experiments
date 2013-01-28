@@ -9,6 +9,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>
+            function displayDate()
+            {
+            document.getElementById("para1").innerHTML=Date();
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="drewscss.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Class 2 Experiments with external style sheet!</title>
@@ -30,5 +36,7 @@
         
         <p class="center">Let's try some CSS formatting!</p>
         <p id='para1'>Here's a paragraph with an id.</p>
+        <button type="button" onclick="displayDate()">Display Date</button>
+        <button type="button" onclick="alert('Welcome!')">Click Me!</button>
     </body>
 </html>
