@@ -38,5 +38,8 @@
         <p id='para1'>Here's a paragraph with an id.</p>
         <button type="button" onclick="displayDate()">Display Date</button>
         <button type="button" onclick="alert('Welcome!')">Click Me!</button>
+        <%--Can't quite get the images to link in properly!!--%>
+        <img border="0" src="\java\images\Why do so many.png" alt="Why do so many" width="304" height="228">
+        <img border="0" src="Why do so many.png" alt="Why do so many" width="304" height="228">
     </body>
 </html>
